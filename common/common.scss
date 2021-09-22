@@ -532,8 +532,11 @@ font-style: normal;
 
 }
 
-.category-abbreviation {
-font-weight: 300;
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo.no-logo-present .category-abbreviation {
+    display: block;
+    color: white;
+    font-weight: 300;
+    font-size: 2em;
 }
 
 
