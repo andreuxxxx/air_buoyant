@@ -266,8 +266,8 @@ html {
     left: 0;
     height: 100vh;
     width: 100vw;
-    /////// background-image: url ('https://buoyant.io/images/mesh-patterns/green-waves.png');
- background: linear-gradient(90deg, #072a41 0%, #1c445f 100%);
+   background-image: url ("https://buoyant.io/images/mesh-patterns/green-waves.png");
+///////// background: linear-gradient(90deg, #072a41 0%, #1c445f 100%);
     clip-path: ellipse(148% 70% at 91% -14%);
 
   }
