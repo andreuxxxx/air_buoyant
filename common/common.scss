@@ -6,7 +6,7 @@
 @font-face {
     font-family: 'zantrokeregular';
     src: url('https://use.typekit.net/ity1pdd.css') format('woff2'),
-         url('fonts/zantroke-webfont.woff') format('woff');
+         !important;
     font-weight: normal;
     font-style: normal;
 }
