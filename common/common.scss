@@ -6,12 +6,18 @@
 @font-face {
     font-family: 'zantrokeregular';
     src: url('https://use.typekit.net/ity1pdd.css') format('woff2'),
-         !important;
+         url('https://use.typekit.net/ity1pdd.css') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 /////////////
+
+html {
+
+font-family: urbane-rounded, sans-serif;
+font-weight: 300;
+font-style: normal;
+}
 
 
 .custom-search-banner-wrap {
