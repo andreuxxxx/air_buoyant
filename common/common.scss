@@ -508,3 +508,13 @@ td.num.views, th.num.views {
     z-index: 0;
   }
 }
+
+
+////////// ANDREA custom
+
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo.no-logo-present .category-abbreviation {
+    display: block;
+    color: white;
+    font-weight: 500;
+    font-size: 2em;
+}
