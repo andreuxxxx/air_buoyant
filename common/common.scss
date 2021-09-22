@@ -13,7 +13,6 @@ font-style: normal;
 
 
 
-
 html {
 
 font-family: urbane-rounded, sans-serif;
@@ -26,9 +25,14 @@ font-style: normal;
   margin: 0 auto !important;
   max-width: unset;
   color: var(--secondary);
+  
   h1 {
     font-size: 4em !important;
+    font-family: urbane-rounded, sans-serif;
+font-weight: 300;
+font-style: normal;
   }
+  
   p {
     font-size: 1.25em !important;
     font-weight: bold;
