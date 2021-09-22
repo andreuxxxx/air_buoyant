@@ -3,22 +3,18 @@
 // Webfont Andrea's Update
 
 
-@font-face {
-  font-family: urbane-rounded, sans-serif !important;
-    src: url('https://use.typekit.net/ity1pdd.css') format('woff2'),;
-        ///// url('https://use.typekit.net/ity1pdd.css') format('woff');
-      font-weight: 300;
-    font-style: normal;
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+  font-family: 'Muli', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 20px;
+  padding: 70px;
 }
 
-/////////////
-
-.background-container {
-
-font-family: urbane-rounded, sans-serif;
-font-weight: 300;
-font-style: normal;
-}
 
 
 
