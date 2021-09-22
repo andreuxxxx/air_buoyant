@@ -513,17 +513,11 @@ td.num.views, th.num.views {
 ////////// ANDREA custom
 
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
-    display: flex;
-    flex-grow: 1;
-    background-color: var(--secondary);
-    border-left-width: 0;
+
     border-radius: 12px;
     margin: 0 0 20px 0;
     max-height: 160px;
-    overflow: hidden;
-    transition: all ease-out 0.2s;
-    width: initial;
-    box-shadow: 0 24px 40px rgb(0 0 0 / 7%), 0 10.8529px 24.1177px rgb(0 0 0 / 5%), 0 4.50776px 10.0172px rgb(0 0 0 / 4%), 0 1.63037px 3.62304px rgb(0 0 0 / 2%);
+  
 }
 
 
