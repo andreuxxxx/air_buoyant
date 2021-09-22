@@ -1,4 +1,19 @@
 // custom search banner customizations
+
+// Webfont Andrea's Update
+
+
+@font-face {
+    font-family: 'zantrokeregular';
+    src: url('https://use.typekit.net/ity1pdd.css') format('woff2'),
+         url('fonts/zantroke-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/////////////
+
+
 .custom-search-banner-wrap {
   margin: 0 auto !important;
   max-width: unset;
