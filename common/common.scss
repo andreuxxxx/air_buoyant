@@ -302,10 +302,10 @@ html body #main-outlet {
     /////margin: 0 0 50px 0;}
     }
     
-    .wrap custom-search-banner-wrap p 
-    {font-size: .5em;}
- 
-  }
+.custom-search-banner-wrap p {
+    font-weight: normal;
+  font-size:.8em !important;
+    }
   
   padding-bottom: 5% !important; //overriding inline style
   @include box-shadow;
