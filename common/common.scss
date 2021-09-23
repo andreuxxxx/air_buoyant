@@ -295,13 +295,14 @@ html body #main-outlet {
   font-size: 20px;
     
     }*/
-    
-     h1 {
-    font-size: 2em !important;
-    font-family: urbane-rounded, sans-serif;
-font-weight: 500;
-font-style: normal;
-       margin: 0 0 40px 0;}
+     
+    .custom-search-banner-wrap h1 {
+      
+    font-size: var(--font-up-4);
+    line-height: $line-height-medium;
+    @include breakpoint(tablet) {
+     font-size: var(--font-up-4);
+    }
     
 
    p {font-size: .9em !important;
