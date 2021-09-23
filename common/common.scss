@@ -291,8 +291,13 @@ html body #main-outlet {
     padding: 1.5em;
     margin-top: 0;
     
-    h1 {
-    font-size: .8em;
+
+       h1 {
+    font-size: 2em !important;
+    font-family: urbane-rounded, sans-serif;
+font-weight: 500;
+font-style: normal;
+    margin: 10 0 20px 0;
     }
     
 
