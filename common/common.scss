@@ -291,9 +291,16 @@ html body #main-outlet {
     padding: 1.5em;
     margin-top: 0;
     
-.custom-search-banner-wrap h1 {
-  font-size: 2.7em;}
+/*.custom-search-banner-wrap h1 {
+  font-size: 20px;*/
     
+    }
+      h1 {
+    font-size: 2em /*!important*/;
+    font-family: urbane-rounded, sans-serif;
+font-weight: 500;
+font-style: normal;
+        margin: 0 0 40px 0;}
 
    p {font-size: .9em !important;
     font-weight: 300;
