@@ -27,7 +27,7 @@ font-style: normal;
   color: var(--secondary);
   
   h1 {
-    font-size: 3em !important;
+    font-size: 3em /*!important/;
     font-family: urbane-rounded, sans-serif;
 font-weight: 500;
 font-style: normal;
@@ -299,6 +299,10 @@ font-style: normal;
     margin: 10 0 20px 0;
     }
     
+    
+    .custom-search-banner-wrap h1 {
+    font-size: var(--font-up-2);
+}
 
    p {font-size: .9em !important;
     font-weight: 300;
