@@ -304,8 +304,11 @@ html body #main-outlet {
     p {
       font-size: 0.875em;
       font-weight: 300;
+      max-width: 480px;
+      margin-left:auto;
+      margin-right:auto;
       //// margin-bottom: .8em;
-      /////padding: 0 15% 0 15%;
+      padding: 0 2rem 0 2rem;
       /////margin: 0 0 50px 0;}
     }
   }
