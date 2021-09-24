@@ -588,3 +588,11 @@ th.num.views {
   font-weight: 300;
   font-size: 2em;
 }
+
+////// Extra media query Andrea
+
+@media screen and (max-width: 640px) {
+  html .background-container {
+    clip-path: ellipse(148% 85% at 91% -14%);
+  }
+}
