@@ -610,7 +610,7 @@ th.num.views {
   //////line-height: 140%;
 font-family: urbane-rounded, sans-serif;
   }
-
+}
 
 @media screen and (max-width: 320px) {
   html .background-container {
@@ -619,20 +619,4 @@ font-family: urbane-rounded, sans-serif;
   .display-search-banner #main-outlet {
     padding: 1em 1em 5%;
   }
-  .custom-search-banner-wrap {
-    h1 {
-      font-size: var(--font-up-6);
-      line-height: $line-height-medium;
-    }
-
-    p {
-      font-size: 1rem;
-      font-weight: 300;
-      max-width: 480px;
-      margin-left:auto;
-      margin-right:auto;
-      //// margin-bottom: .8em;
-      padding: 0 2rem 0 2rem;
-      /////margin: 0 0 50px 0;}
-    }
-  }
+}
