@@ -295,19 +295,20 @@ html body #main-outlet {
 @media screen and (max-width: 768px) {
 
 
-  .custom-search-banner-wrap h1 {
-    font-size: var(--font-up-6);
-    line-height: $line-height-medium;
-  }
+  .custom-search-banner-wrap {
+    h1 {
+      font-size: var(--font-up-6);
+      line-height: $line-height-medium;
+    }
 
-  p {
-    font-size: 0.9em;
-    font-weight: 300;
-    //// margin-bottom: .8em;
-    /////padding: 0 15% 0 15%;
-    /////margin: 0 0 50px 0;}
+    p {
+      font-size: 0.875em;
+      font-weight: 300;
+      //// margin-bottom: .8em;
+      /////padding: 0 15% 0 15%;
+      /////margin: 0 0 50px 0;}
+    }
   }
-
   .custom-category-boxes:not(.above-discovery-categories-outlet)
     .category-box
     .category-box-inner {
