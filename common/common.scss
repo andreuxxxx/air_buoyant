@@ -281,8 +281,6 @@ html body #main-outlet {
     min-height: 500px;
   }
 
-  
-
   /// padding-bottom: 5% !important; //overriding inline style
 
   @include box-shadow;
@@ -298,12 +296,12 @@ html body #main-outlet {
 
 
   .custom-search-banner-wrap h1 {
-    font-size: var(--font-up-6) !important;
+    font-size: var(--font-up-6);
     line-height: $line-height-medium;
   }
 
   p {
-    font-size: 0.9em !important;
+    font-size: 0.9em;
     font-weight: 300;
     //// margin-bottom: .8em;
     /////padding: 0 15% 0 15%;
