@@ -297,7 +297,7 @@ html body #main-outlet {
 
   .custom-search-banner-wrap {
     h1 {
-      font-size: var(--font-up-6);
+      font-size: var(--font-up-6) !important;
       line-height: $line-height-medium;
     }
 
