@@ -622,7 +622,7 @@ font-family: urbane-rounded, sans-serif;
 //////////////////////
   .custom-search-banner-wrap {
     h1 {
-      font-size: var(--font-up-4);
+      font-size: var(--font-up-4) !important;
       line-height: $line-height-medium;
     }
 
