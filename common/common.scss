@@ -2,48 +2,42 @@
 
 // Webfont Andrea's Update
 
-
-@import url('https://use.typekit.net/olk5jbf.css');
-@import url('https://use.typekit.net/olk5jbf.css');
+@import url("https://use.typekit.net/olk5jbf.css");
+@import url("https://use.typekit.net/olk5jbf.css");
 body {
   font-family: urbane-rounded, sans-serif;
-font-weight: 300;
-font-style: normal;
+  font-weight: 300;
+  font-style: normal;
 }
 html {
-
-font-family: urbane-rounded, sans-serif;
-font-weight: 300;
-font-style: normal;
+  font-family: urbane-rounded, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .custom-search-banner-wrap {
   margin: 0 auto !important;
   max-width: unset;
   color: var(--secondary);
-  
+
   h1 {
     font-size: 3em /*!important*/;
     font-family: urbane-rounded, sans-serif;
-font-weight: 500;
-font-style: normal;
+    font-weight: 500;
+    font-style: normal;
     margin: 0 0 40px 0;
-    
-   /////////////////
-    background-image: linear-gradient(
-90deg,#64F9BF -1.8%,#01C1B4 89.49%);
+
+    /////////////////
+    background-image: linear-gradient(90deg, #64f9bf -1.8%, #01c1b4 89.49%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
-    
   }
-  
+
   p {
     font-size: 1.15em !important;
     font-weight: 300;
     margin-bottom: 1em;
     padding: 0 20% 0 20%;
     margin: 0 0 50px 0;
-    
   }
   .btn {
     height: 100%;
@@ -53,14 +47,14 @@ font-style: normal;
     border-radius: 0.25em;
     min-height: 40px;
     &:focus {
-      outline: 3px solid rgba(var(--primary-rgb),.35);
+      outline: 3px solid rgba(var(--primary-rgb), 0.35);
     }
   }
   .widget-link.show-help {
-    color: rgba(var(--primary-rgb),0.75);
+    color: rgba(var(--primary-rgb), 0.75);
     border-radius: 0.5em;
     padding: 0.5em;
-    background-color: rgba(var(--secondary-rgb),0.25);
+    background-color: rgba(var(--secondary-rgb), 0.25);
     &:hover {
       color: var(--primary);
     }
@@ -90,7 +84,8 @@ font-style: normal;
   display: none;
 }
 
-.topic-list th, .topic-list td {
+.topic-list th,
+.topic-list td {
   padding: 15px 5px;
 }
 
@@ -127,12 +122,15 @@ font-style: normal;
   }
 }
 
-.discourse-tags .discourse-tag.simple:not(:last-child)::after, .list-tags .discourse-tag.simple:not(:last-child)::after, .search-category .discourse-tag.simple:not(:last-child)::after {
+.discourse-tags .discourse-tag.simple:not(:last-child)::after,
+.list-tags .discourse-tag.simple:not(:last-child)::after,
+.search-category .discourse-tag.simple:not(:last-child)::after {
   content: "";
   margin-left: unset;
 }
 
-.topic-list .link-bottom-line .discourse-tag.simple:after, .topic-list .link-bottom-line .discourse-tag.box {
+.topic-list .link-bottom-line .discourse-tag.simple:after,
+.topic-list .link-bottom-line .discourse-tag.box {
   margin-right: 0px;
 }
 
@@ -169,7 +167,7 @@ div.ac-wrap {
   border-radius: 4px;
 }
 .d-header {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0, 0.06);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
 }
 
 .d-header-icons .d-icon {
@@ -210,7 +208,7 @@ div.ac-wrap {
 .menu-panel .widget-link:focus,
 .menu-panel .categories-link:hover,
 .menu-panel .categories-link:focus {
-  background-color: rgba(var(--tertiary-rgb),0.5);
+  background-color: rgba(var(--tertiary-rgb), 0.5);
 }
 
 .btn:not(.themes-tab):not(.components-tab),
@@ -239,37 +237,38 @@ div.ac-wrap {
 
 //////////////////////////////////////// graceful ish style
 
-
-
-
 @mixin box-shadow($value: 0px) {
-  box-shadow: 0 24px 40px rgba(0,0,0,.07),0 10.8529px 24.1177px rgba(0,0,0,.0456112),0 4.50776px 10.0172px rgba(0,0,0,.035),0 1.63037px 3.62304px rgba(0,0,0,.0243888);
+  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
+    0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
+    0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
+    0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
 }
 
 html {
   body {
-    background: linear-gradient(0deg, rgba(var(--primary-rgb),0.075) 0%, rgba(var(--primary-rgb),0.075) 100%),
-    linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
+    background: linear-gradient(
+        0deg,
+        rgba(var(--primary-rgb), 0.075) 0%,
+        rgba(var(--primary-rgb), 0.075) 100%
+      ),
+      linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
   }
-  
-  
+
   ////////////////////////////////// MESH *********************************************************************
-  
+
   .background-container {
-   position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
     width: 100vw;
-   //////////background-image: url ("https://buoyant.io/images/mesh-patterns/green-waves.png");
-background: linear-gradient(90deg, #072a41 0%, #1c445f 100%);
+    //////////background-image: url ("https://buoyant.io/images/mesh-patterns/green-waves.png");
+    background: linear-gradient(90deg, #072a41 0%, #1c445f 100%);
     clip-path: ellipse(148% 70% at 91% -14%);
-
   }
 }
 
 /////////////// M E D I A Queries /////////////////////////////////////////////////////////////////
-
 
 html body #main-outlet {
   margin-top: 30px;
@@ -281,52 +280,47 @@ html body #main-outlet {
   .archetype-regular & {
     min-height: 500px;
   }
+
   
-  @media screen and (max-width: 768px) {
-    padding: 1.5em;
-    margin-top: 0;
-    
-/*.custom-search-banner-wrap h1 {
-  font-size: 20px;
-    
-    }*/
-     
-    .custom-search-banner-wrap h1 { 
-    font-size: var(--font-up-6)!important;
-    line-height: $line-height-medium; 
-    }
-   
-   p {font-size: .9em !important;
+
+  /// padding-bottom: 5% !important; //overriding inline style
+
+  @include box-shadow;
+  @media screen and (max-width: 1120px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 1075px) {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 768px) {
+
+
+  .custom-search-banner-wrap h1 {
+    font-size: var(--font-up-6) !important;
+    line-height: $line-height-medium;
+  }
+
+  p {
+    font-size: 0.9em !important;
     font-weight: 300;
     //// margin-bottom: .8em;
     /////padding: 0 15% 0 15%;
     /////margin: 0 0 50px 0;}
-    }
-    
-    .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner {
+  }
+
+  .custom-category-boxes:not(.above-discovery-categories-outlet)
+    .category-box
+    .category-box-inner {
     border: 0;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 0fr 1fr 0fr;
     column-gap: 10px;
     padding: 0;
-}
-    
-}
-
- /// padding-bottom: 5% !important; //overriding inline style
-  
-  @include box-shadow;
-  @media screen and (max-width: 1120px) {
-    width: 80%;
-  }
-
-
-  @media screen and (max-width: 1075px) {
-    width: 85%;
   }
 }
-
 .nav-pills > li a.active,
 .nav-pills > li > a {
   border-radius: 0.5em;
@@ -379,20 +373,20 @@ html body #main-outlet {
     tr:not(.topic-list-item-separator) {
       width: 100%;
       display: flex;
-      margin-bottom: .5em;
+      margin-bottom: 0.5em;
       background-color: var(--secondary);
-      border: 1px solid rgba(var(--primary-rgb),0.20);
+      border: 1px solid rgba(var(--primary-rgb), 0.2);
       border-radius: 1em;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
-      box-shadow: 0px 0px 8px rgba(0,0,0,0.05);
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
       &.visited {
-        border: 1px solid rgba(var(--primary-rgb),0.10);
+        border: 1px solid rgba(var(--primary-rgb), 0.1);
         .discourse-tag {
           opacity: 0.75;
         }
         &:hover {
-          border: 1px solid rgba(var(--primary-rgb),0.25);
+          border: 1px solid rgba(var(--primary-rgb), 0.25);
           .discourse-tag {
             opacity: 1;
           }
@@ -400,8 +394,8 @@ html body #main-outlet {
       }
       &:hover {
         background-color: var(--secondary);
-        box-shadow: 0px 0px 12px rgba(0,0,0,0.10);
-        border: 1px solid rgba(var(--primary-rgb),0.30);
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(var(--primary-rgb), 0.3);
         a.title:not(.badge-notification),
         a.topic-excerpt {
           color: var(--primary) !important;
@@ -419,7 +413,7 @@ html body #main-outlet {
         justify-content: center;
         align-items: center;
         a:not(:first-of-type) {
-          display: none
+          display: none;
         }
       }
       td.posts {
@@ -440,7 +434,8 @@ html body #main-outlet {
   }
 }
 
-td.num.views, th.num.views {
+td.num.views,
+th.num.views {
   display: none;
 }
 
@@ -500,9 +495,10 @@ td.num.views, th.num.views {
         }
       }
     }
-    .posts-map, .num.age.activity {
-      a { 
-        padding: 0 
+    .posts-map,
+    .num.age.activity {
+      a {
+        padding: 0;
       }
     }
     .posts-map {
@@ -535,7 +531,10 @@ td.num.views, th.num.views {
   background: var(--secondary);
   border-radius: 1em;
   padding: 3em 3em 5%;
-  box-shadow: 0 24px 40px rgba(0,0,0,0.07),0 10.8529px 24.1177px rgba(0,0,0,0.0456112),0 4.50776px 10.0172px rgba(0,0,0,0.035),0 1.63037px 3.62304px rgba(0,0,0,0.0243888);
+  box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
+    0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
+    0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
+    0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
   z-index: 1;
   position: relative;
   font-family: urbane-rounded, sans-serif;
@@ -546,7 +545,11 @@ td.num.views, th.num.views {
     display: none;
   }
   &::before {
-    background: linear-gradient(90deg, var(--tertiary-hover) 0%, var(--tertiary) 100%);
+    background: linear-gradient(
+      90deg,
+      var(--tertiary-hover) 0%,
+      var(--tertiary) 100%
+    );
     clip-path: ellipse(148% 70% at 91% -14%);
     content: "";
     width: 100%;
@@ -557,36 +560,29 @@ td.num.views, th.num.views {
   }
 }
 
-
 ////////// ANDREA custom
 
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
-
-    border-radius: 12px;
-    margin: 0 0 40px 0;
-    max-height: 160px;
-   font-family: urbane-rounded, sans-serif;
-font-weight: 300;
-
-  
+  border-radius: 12px;
+  margin: 0 0 40px 0;
+  max-height: 160px;
+  font-family: urbane-rounded, sans-serif;
+  font-weight: 300;
 }
 
 .category-logo no-logo-present {
-
-font-family: urbane-rounded, sans-serif;
-font-weight: 300;
-font-style: normal;
-
+  font-family: urbane-rounded, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo.no-logo-present .category-abbreviation {
-    display: block;
-    color: white;
-    font-weight: 300;
-    font-size: 2em;
+.custom-category-boxes:not(.above-discovery-categories-outlet)
+  .category-box
+  .category-box-inner
+  .category-logo.no-logo-present
+  .category-abbreviation {
+  display: block;
+  color: white;
+  font-weight: 300;
+  font-size: 2em;
 }
-
-
-
-
-
