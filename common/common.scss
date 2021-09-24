@@ -598,4 +598,14 @@ th.num.views {
   .display-search-banner #main-outlet {
     padding: 1em 1em 5%;
 }
+.custom-category-boxes:not(.above-discovery-categories-outlet) .description {
+  color: var(--primary-high);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.03em;
+  margin-bottom: 0;
+  max-height: 3em;
+  text-align: left;
+}
 }
