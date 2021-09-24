@@ -608,4 +608,15 @@ th.num.views {
   ////max-height: 2em;
   text-align: left;
 }
+.custom-category-boxes:not(.above-discovery-categories-outlet) h3 {
+  align-items: baseline;
+  color: var(--primary);
+  display: inline-flex;
+  font-size: 1.125em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  //////line-height: 140%;
+  margin-top: 0;
+  text-align: left;
+}
 }
